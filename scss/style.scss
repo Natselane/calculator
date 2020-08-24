@@ -9,12 +9,29 @@ body {
     justify-content: center;
 
     .container {
-        width: 50%;
+        min-width: 400px;
+        max-width: 500px;
     }
 }
 
 .calculator {
     background-color: #D5D5D5;
     width: 100%;
-    height: 500px;
+    height: 600px;
+}
+
+.top-calc {
+    height: 100px;
+    display: flex;
+    font-size: 2em;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bottom-calc {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
