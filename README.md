@@ -1,1 +1,3 @@
-# calculator
+# Calculator
+
+The Odin Project assignment. 
