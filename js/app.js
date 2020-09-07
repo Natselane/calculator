@@ -7,6 +7,7 @@ const signButtons = document.querySelectorAll(".signBtn");
 const display = document.querySelector(".added-num");
 const resultDisplay = document.querySelector(".result");
 const clearBtn = document.querySelector("#clear");
+const backspaceBtn = document.querySelector("#backspace");
 
 // Evaluate expressions
 const add = (num1, num2) => num1 + num2;
