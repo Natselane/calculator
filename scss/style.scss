@@ -52,7 +52,7 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        position: fixed;
+        position: absolute;
     }
 
     #result {
@@ -66,6 +66,7 @@ body {
     background-color: #FFB11B;
     height: 90%;
     display: grid;
+    padding: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
