@@ -71,7 +71,6 @@ equalsButton.addEventListener("click", () => {
 })
 
 backspaceBtn.addEventListener("click", () => {
-    console.log("backspace");
     if (currentSign === "") {
         firstNum = firstNum.slice(0, firstNum.length - 1);
         toDisplay(firstNum);
