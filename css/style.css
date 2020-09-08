@@ -93,7 +93,7 @@ body h1 {
   height: 90%;
   display: -ms-grid;
   display: grid;
-  padding: 10px;
+  padding: 15px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -107,19 +107,24 @@ body h1 {
 
 .bottom-calc button {
   font-size: 40px;
-  height: 85px;
-  width: 85px;
+  height: 90px;
+  width: 90px;
   background-color: #1D1D1D;
   color: #F5F5F5;
-  border: 1px solid #F5F5F5;
+  border: 0;
 }
 
 .bottom-calc button:focus {
-  background-color: #797979;
+  outline: none;
+}
+
+.bottom-calc button:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px #1D1D1D;
+          box-shadow: 0px 0px 30px 0px #1D1D1D;
 }
 
 .bottom-calc #zero {
-  width: 180px;
+  width: 200px;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 / 3;
